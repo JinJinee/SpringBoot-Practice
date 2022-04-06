@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+body, ul, li{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.topMenu{
+	background-color: lightblue;
+	height: 80px;
+	text-align: center;
+}
+
+.topMenu li{
+	float: left;
+	width: 200px;
+	height: 80px;
+	line-height: 80px;
+	font-size: 1.5em;
+}
+
+.container{
+	width: 1000px;
+	margin: 0 auto;
+}
+
+.bottom{
+	height: 50px;
+	text-align: center;
+	color: white;
+	background-color: gray;
+}
